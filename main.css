@@ -1,0 +1,356 @@
+/* Original Image: 730pxx818px */
+/* 7 rows + 1 extra entry */
+
+body {
+}
+
+.customSection {
+    width: 100%;
+}
+
+.customSectionDivider {
+    height: 20px;
+}
+
+.flavorSection {
+    background: 
+        linear-gradient(rgba(255,255,255,1.0), rgba(255,255,255,0.0) 10%, rgba(255,255,255,0.0) 79%, rgba(255,255,255,1.0)), 
+        linear-gradient(90deg, rgba(255,255,255,1.0), rgba(255,255,255,0.0) 2.5%, rgba(255,255,255,0.0) 97.5%, rgba(255,255,255,1.0)), 
+        url('images/beach2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.customContainer {
+    background: rgba(255,255,255,0.5);
+    border-radius: 30px;
+    box-shadow: 3px 3px 7px gray;
+    max-width: 730px;
+    min-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.flavorHeader {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
+    margin-bottom: 10px;
+}
+
+.headerLine {
+    width:100%;
+    box-shadow: 3px 3px 3px gray;
+    background: white;
+    border-radius: 3px;
+    height: 3px;
+}
+
+.marginLine {
+    margin-top: 10px;
+}
+
+.tableOuter {
+    display: table;
+    max-width: 700px;
+    min-width: 700px;
+    /* padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto; */
+    border-spacing: 15px;
+}
+
+.tableRow {
+    display:table-row;
+}
+
+.tableCell {
+    display: table-cell;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 35px;
+    border: 3px solid white;
+    padding: 3px;
+    background: rgba(0,255,255,0.5);
+    margin: 10px;
+}
+
+.boxShapeOuter {
+    min-width: 300px;
+    min-height: 70px;
+    box-shadow: 3px 3px 7px gray;
+    border-radius: 30px;
+    border: 5px solid white;
+    padding: 30px;
+    background: rgba(0,255,255,0.5)
+}
+
+.innerCircle {
+    border-radius: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.innerCircle img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.innerText {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 32px;
+    color: white;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+             #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bananaShadow {
+    color:#E6B816;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+             #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+}
+
+.lemonShadow {
+    color:#d3d202;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+             #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+}
+
+.birthdayCakeShadow {
+    color:#ba89aa;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+             #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+}
+
+.splendaOptions {
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: #FB2531;
+    border-radius: 1100px;
+    border: #FBB3AF solid 10px;
+    box-shadow: 3px 3px 7px gray;
+    text-align: center;
+    font-family: Helvetica, sans-serif, Arial;
+    font-style: italic;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 3px 3px 3px rgb(165, 13, 18);
+}
+
+.splendaOptions span {
+    vertical-align: middle;
+}
+
+.footerSection {
+    background: linear-gradient(rgba(255,255,255,1.0), rgba(255,255,255,0.0) 85%, rgba(255,255,255,0.0) 90%, rgba(255,255,255,1.0)), linear-gradient(90deg, rgba(255,255,255,1.0), rgba(255,255,255,0.0) 2.5%, rgba(255,255,255,0.0) 97.5%, rgba(255,255,255,1.0)), url('images/ice-forest.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 90px;
+}
+
+.contactUsHeader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgb(82, 91, 188);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contactTable {
+    display: table;
+    border-spacing: 15px;
+    max-width: 700px;
+    min-width: 700px;
+}
+
+.contactTableRow {
+    display: table-row;
+}
+
+.contactTableCell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.contactTableHeaderLine {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgba(109, 116, 199, 1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.facebookHeaderCell {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgba(109, 116, 199, 1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.facebookEmbeddedPage {
+    width: 506px; 
+    height: 306px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 7px 7px gray;
+    border: 3px solid rgba(35, 114, 229, 1);
+}
+
+.contactName {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgba(109, 116, 199, 1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contactEmail {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgba(109, 116, 199, 1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contactPhone {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgba(109, 116, 199, 1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contactFormTable {
+    display: table;
+    border-spacing: 0;
+    width:100%;
+}
+
+.contactFormRow {
+    display: table-row;
+    margin-top: 10px;
+}
+
+.contactFormTitle {
+    display: table-cell;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
+    #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
+    color: rgba(109, 116, 199, 1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.contactFormEntry {
+    display: table-cell;
+    width:100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contactFormSubmit {
+    display: table-cell;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logoPenguin {
+    display: inline-block;
+}
+
+.logoPenguin img {
+    filter: drop-shadow(7px 7px 7px black);
+    width: 200px;
+    vertical-align: middle;
+}
+
+.logoName {
+    display: inline-block;
+}
+
+.logoName img {
+    filter: drop-shadow(7px 7px 7px black);
+    width: 300px;
+    vertical-align: middle;
+}
+
+.logoBlock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 510px;
+    max-width: 510px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titleSection {
+
+}
+
+.mainContentWrapoer {
+    width: 100%;
+}
