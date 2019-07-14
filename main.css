@@ -16,7 +16,7 @@ body {
     background: 
         linear-gradient(rgba(255,255,255,1.0), rgba(255,255,255,0.0) 10%, rgba(255,255,255,0.0) 79%, rgba(255,255,255,1.0)), 
         linear-gradient(90deg, rgba(255,255,255,1.0), rgba(255,255,255,0.0) 2.5%, rgba(255,255,255,0.0) 97.5%, rgba(255,255,255,1.0)), 
-        url('images/beach2.jpg');
+        url('Images/beach2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
@@ -168,7 +168,7 @@ body {
 }
 
 .footerSection {
-    background: linear-gradient(rgba(255,255,255,1.0), rgba(255,255,255,0.0) 85%, rgba(255,255,255,0.0) 90%, rgba(255,255,255,1.0)), linear-gradient(90deg, rgba(255,255,255,1.0), rgba(255,255,255,0.0) 2.5%, rgba(255,255,255,0.0) 97.5%, rgba(255,255,255,1.0)), url('images/ice-forest.jpg');
+    background: linear-gradient(rgba(255,255,255,1.0), rgba(255,255,255,0.0) 85%, rgba(255,255,255,0.0) 90%, rgba(255,255,255,1.0)), linear-gradient(90deg, rgba(255,255,255,1.0), rgba(255,255,255,0.0) 2.5%, rgba(255,255,255,0.0) 97.5%, rgba(255,255,255,1.0)), url('Images/ice-forest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
