@@ -496,10 +496,12 @@ body {
     font-weight: bolder;
 }
 
-.calendarHelp {
+.calendar {
+    max-width: 690px;
     max-height: 420px;
     box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
-    border: 3px solid white;
-    border-radius: 20px;
-    padding: 5px;
+    /* border: 3px solid cyan;
+    border-radius: 0px;
+    padding: 0px; */
+    background: white;
 }
