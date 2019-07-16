@@ -176,8 +176,8 @@ body {
 
 .splendaOptions {
     color: white;
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -519,7 +519,7 @@ body {
     margin-right:auto;
 }
 
-@media screen and (max-width:1079px) {
+@media screen and (max-width:999px) {
     .customContainer {
         max-width: var(--width-screen-720-main);
         min-width: var(--width-screen-720-main);
@@ -596,10 +596,15 @@ body {
         max-width: 690px;
         max-height: 420px;
     }
-    
+
+    .splendaOptions {
+        width: 200px;
+        height: 200px;
+    }
+        
 }
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:1000px) {
 
     .customContainer {
         max-width: var(--width-screen-1080-main);
@@ -676,6 +681,11 @@ body {
     .calendar {
         max-width: 900px;
         max-height: 700px;
+    }
+
+    .splendaOptions {
+        width: 250px;
+        height: 250px;
     }
 
 }
