@@ -11,6 +11,25 @@
     src: url('fonts/Futura\ Light\ Regular.otf');
 }
 
+:root {
+    /* screen = <= 720px */
+    --width-screen-720-main: 720px;
+    --width-screen-720-main1: 700px;
+
+    --width-screen-1080-main: 1080px;
+    --width-screen-1080-main1: 1060px;
+
+    --font-720-size1: 42px;
+    --font-720-size2: 32px;
+    --font-720-size3: 25px;
+    --font-720-size4: 20px;
+
+    --font-1080-size1: 46px;
+    --font-1080-size2: 36px;
+    --font-1080-size3: 30px;
+    --font-1080-size4: 25px;
+}
+
 body {
 }
 
@@ -36,8 +55,8 @@ body {
     background: rgba(255,255,255,0.5);
     border-radius: 30px;
     box-shadow: 3px 3px 7px rgba(128,128,128,0.5);
-    max-width: 730px;
-    min-width: 730px;
+    /* max-width: var(--width-screen-720-main);
+    min-width: var(--width-screen-720-main); */
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -46,23 +65,19 @@ body {
 }
 
 .customContainer2 {
-    /* background: rgba(255,255,255,0.5); */
-    /* border-radius: 30px;
-    box-shadow: 3px 3px 7px rgba(128,128,128,0.5); */
-    max-width: 730px;
-    min-width: 730px;
+    /* max-width: var(--width-screen-720-main);
+    min-width: var(--width-screen-720-main); */
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px; */
 }
 
 .flavorHeader {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 42px !important;
+
+    /* font-size: 42px !important; */
+
     margin-left: auto;
     margin-right: auto;
     display: block !important;
@@ -83,12 +98,8 @@ body {
 
 .tableOuter {
     display: table;
-    max-width: 700px;
-    min-width: 700px;
-    /* padding: 20px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto; */
+    /* max-width: var(--width-screen-720-main1);
+    min-width: var(--width-screen-720-main1); */
     border-spacing: 15px;
 }
 
@@ -137,7 +148,7 @@ body {
 
 .innerText {
     font-family: 'Impact';
-    font-size: 32px;
+    /* font-size: 32px; */
     color: white;
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
              #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
@@ -181,9 +192,9 @@ body {
     align-content: center;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
     padding: 10px;
     text-shadow: 3px 3px 3px rgb(165, 13, 18);
+    /* font-size: 20px; */
 }
 
 .splendaOptions span {
@@ -200,7 +211,7 @@ body {
 
 .contactUsHeader {
     font-family: 'Impact';
-    font-size: 42px;
+    /* font-size: 42px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgb(82, 91, 188);
@@ -214,8 +225,8 @@ body {
 .contactTable {
     display: table;
     border-spacing: 15px;
-    max-width: 700px;
-    min-width: 700px;
+    /* max-width: var(--width-screen-720-main1);
+    min-width: var(--width-screen-720-main1); */
 }
 
 .contactTableRow {
@@ -229,7 +240,7 @@ body {
 
 .contactTableHeaderLine {
     font-family: 'Impact';
-    font-size: 25px;
+    /* font-size: 25px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(109, 116, 199, 1);
@@ -242,7 +253,7 @@ body {
 
 .facebookHeaderCell {
     font-family: 'Impact';
-    font-size: 25px;
+    /* font-size: 25px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(109, 116, 199, 1);
@@ -265,7 +276,7 @@ body {
 
 .contactName {
     font-family: 'Impact';
-    font-size: 20px;
+    /* font-size: 20px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(109, 116, 199, 1);
@@ -278,7 +289,7 @@ body {
 
 .contactEmail {
     font-family: 'Impact';
-    font-size: 20px;
+    /* font-size: 20px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(109, 116, 199, 1);
@@ -291,7 +302,7 @@ body {
 
 .contactPhone {
     font-family: 'Impact';
-    font-size: 20px;
+    /* font-size: 20px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(109, 116, 199, 1);
@@ -316,7 +327,7 @@ body {
 .contactFormTitle {
     display: table-cell;
     font-family: 'Impact';
-    font-size: 20px;
+    /* font-size: 20px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
     #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(109, 116, 199, 1);
@@ -415,7 +426,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Impact';
-    font-size: 40px;
+    /* font-size: 42px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
         #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(187, 31, 44, 1);
@@ -432,7 +443,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Impact';
-    font-size: 40px;
+    /* font-size: 42px; */
     text-shadow: #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px,
             #FFF 0px 0px 2px,   #FFF 0px 0px 2px,   #FFF 0px 0px 2px, rgba(0, 0, 0, 0.75) 3px 3px 7px;
     color: rgba(183, 140, 35, 1);
@@ -492,16 +503,179 @@ body {
     padding: 20px;
     box-shadow: 7px 7px 7px rgba(0,0,0,0.25);
     font-family: 'FuturaLight';
-    font-size: 18px;
+    /* font-size: 20px; */
     font-weight: bolder;
 }
 
 .calendar {
-    max-width: 690px;
-    max-height: 420px;
+    /* max-width: 690px;
+    max-height: 420px; */
     box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
     /* border: 3px solid cyan;
     border-radius: 0px;
     padding: 0px; */
     background: white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width:1079px) {
+    .customContainer {
+        max-width: var(--width-screen-720-main);
+        min-width: var(--width-screen-720-main);
+    }
+    
+    .customContainer2 {
+        max-width: var(--width-screen-720-main);
+        min-width: var(--width-screen-720-main);
+    }
+
+    .tableOuter {
+        max-width: var(--width-screen-720-main1);
+        min-width: var(--width-screen-720-main1);
+    }
+ 
+    .contactTable {
+        max-width: var(--width-screen-720-main1);
+        min-width: var(--width-screen-720-main1);
+    }
+
+    .flavorHeader {
+        font-size: var(--font-720-size1) !important;
+    }
+
+    .innerText {
+        font-size: var(--font-720-size2);
+    }
+
+    .splendaOptions {
+        font-size: var(--font-720-size4);
+    }
+
+    .contactUsHeader {
+        font-size: var(--font-720-size1);
+    }
+
+    .contactTableHeaderLine {
+        font-size: var(--font-720-size3);
+    }
+    
+    .facebookHeaderCell {
+        font-size: var(--font-720-size3);
+    }
+
+    .contactName {
+        font-size: var(--font-720-size4);
+    }
+    
+    .contactEmail {
+        font-size: var(--font-720-size4);
+    }
+    
+    .contactPhone {
+        font-size: var(--font-720-size4);
+    }
+        
+    .aboutUsText {
+        font-size: var(--font-720-size4);
+    }
+
+    .contactFormTitle {
+        font-size: var(--font-720-size4);
+    }
+
+    .navItem a {
+        font-size: var(--font-720-size1);
+    }
+    
+    .navSelected a {
+        font-size: var(--font-720-size1);
+    }
+        
+    .calendar {
+        max-width: 690px;
+        max-height: 420px;
+    }
+    
+}
+
+@media screen and (min-width:1080px) {
+
+    .customContainer {
+        max-width: var(--width-screen-1080-main);
+        min-width: var(--width-screen-1080-main);
+    }
+    
+    .customContainer2 {
+        max-width: var(--width-screen-1080-main);
+        min-width: var(--width-screen-1080-main);
+    }
+
+    .tableOuter {
+        max-width: var(--width-screen-1080-main1);
+        min-width: var(--width-screen-1080-main1);
+    }
+ 
+    .contactTable {
+        max-width: var(--width-screen-1080-main1);
+        min-width: var(--width-screen-1080-main1);
+    }
+
+    .flavorHeader {
+        font-size: var(--font-1080-size1) !important;
+    }
+
+    .innerText {
+        font-size: var(--font-1080-size2);
+    }
+
+    .splendaOptions {
+        font-size: var(--font-1080-size4);
+    }
+
+    .contactUsHeader {
+        font-size: var(--font-1080-size1);
+    }
+
+    .contactTableHeaderLine {
+        font-size: var(--font-1080-size3);
+    }
+    
+    .facebookHeaderCell {
+        font-size: var(--font-1080-size3);
+    }
+
+    .contactName {
+        font-size: var(--font-1080-size4);
+    }
+    
+    .contactEmail {
+        font-size: var(--font-1080-size4);
+    }
+    
+    .contactPhone {
+        font-size: var(--font-1080-size4);
+    }
+
+    .aboutUsText {
+        font-size: var(--font-1080-size4);
+    }
+
+    .contactFormTitle {
+        font-size: var(--font-1080-size4);
+    }
+
+    .navItem a {
+        font-size: var(--font-1080-size1);
+    }
+    
+    .navSelected a {
+        font-size: var(--font-1080-size1);
+    }
+
+    .calendar {
+        max-width: 900px;
+        max-height: 700px;
+    }
+
 }
